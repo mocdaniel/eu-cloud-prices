@@ -1,0 +1,90 @@
+{
+  "provider": "metalstack",
+  "fetched_at": "2026-01-25T19:32:53.283Z",
+  "source": "static",
+  "source_url": "https://metalstack.cloud/en/prices",
+  "manual": true,
+  "control_plane_cost": 216,
+  "infrastructure_type": "bare-metal",
+  "instances": [
+    {
+      "id": "n1-medium-x86",
+      "name": "n1-medium-x86",
+      "vcpu": 16,
+      "ram_gb": 32,
+      "disk_gb": 960,
+      "disk_type": "nvme",
+      "price_hourly": 0.75,
+      "price_monthly": 540,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "de-muc",
+      "category": "network-optimized",
+      "type": "bare-metal",
+      "notes": "Dedicated bare-metal server, not shared VM"
+    },
+    {
+      "id": "c1-medium-x86",
+      "name": "c1-medium-x86",
+      "vcpu": 16,
+      "ram_gb": 128,
+      "disk_gb": 960,
+      "disk_type": "nvme",
+      "price_hourly": 1.15,
+      "price_monthly": 828,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "de-muc",
+      "category": "compute-optimized",
+      "type": "bare-metal",
+      "notes": "Dedicated bare-metal server, not shared VM"
+    },
+    {
+      "id": "c1-large-x86",
+      "name": "c1-large-x86",
+      "vcpu": 48,
+      "ram_gb": 192,
+      "disk_gb": 960,
+      "disk_type": "nvme",
+      "price_hourly": 1.75,
+      "price_monthly": 1260,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "de-muc",
+      "category": "compute-optimized",
+      "type": "bare-metal",
+      "notes": "Dedicated bare-metal server, not shared VM"
+    }
+  ],
+  "load_balancer": {
+    "price_monthly": 0,
+    "included": true,
+    "notes": "Load balancing included with Kubernetes clusters"
+  },
+  "block_storage": {
+    "price_per_gb_monthly": 0.144,
+    "replicated": true,
+    "notes": "Replicated NVMe block storage. Billed per hour per GiB."
+  },
+  "egress": {
+    "free_tb": "unlimited",
+    "price_per_gb": 0,
+    "notes": "Egress traffic included"
+  },
+  "object_storage": {
+    "price_per_gb_monthly": 0.976,
+    "type": "S3-compatible",
+    "notes": "€1000/TiB/month. Highly available S3 object storage."
+  },
+  "public_ip": {
+    "price_monthly": 6.98,
+    "notes": "Static public IPv4 address"
+  },
+  "features": {
+    "bare_metal": true,
+    "physical_tenant_separation": true,
+    "dedicated_firewall": true,
+    "ids_logging": true,
+    "notes": "Kubernetes worker nodes are physical servers dedicated to single tenant"
+  }
+}

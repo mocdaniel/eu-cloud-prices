@@ -1,0 +1,189 @@
+{
+  "provider": "plusserver",
+  "fetched_at": "2026-01-25T19:32:53.283Z",
+  "source": "static",
+  "source_url": "https://shop.plusserver.com/Kubernetes/Managed-Kubernetes/",
+  "manual": true,
+  "control_plane_cost": 65.7,
+  "pricing_model": "component-based",
+  "component_pricing": {
+    "cpu_per_vcpu_hourly": 0.0205,
+    "ram_per_gb_hourly": 0.007,
+    "cluster_hourly": 0.09,
+    "notes": "CPU and RAM billed separately per hour"
+  },
+  "instances": [
+    {
+      "id": "2c-4g",
+      "name": "2C-4G",
+      "vcpu": 2,
+      "ram_gb": 4,
+      "disk_gb": 0,
+      "disk_type": "block-storage-required",
+      "price_hourly": 0.069,
+      "price_monthly": 50.37,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "de",
+      "category": "standard",
+      "notes": "Storage billed separately. Price is CPU+RAM only."
+    },
+    {
+      "id": "2c-8g",
+      "name": "2C-8G",
+      "vcpu": 2,
+      "ram_gb": 8,
+      "disk_gb": 0,
+      "disk_type": "block-storage-required",
+      "price_hourly": 0.097,
+      "price_monthly": 70.81,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "de",
+      "category": "standard",
+      "notes": "Storage billed separately. Price is CPU+RAM only."
+    },
+    {
+      "id": "4c-8g",
+      "name": "4C-8G",
+      "vcpu": 4,
+      "ram_gb": 8,
+      "disk_gb": 0,
+      "disk_type": "block-storage-required",
+      "price_hourly": 0.138,
+      "price_monthly": 100.74,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "de",
+      "category": "standard",
+      "notes": "Storage billed separately. Price is CPU+RAM only."
+    },
+    {
+      "id": "4c-16g",
+      "name": "4C-16G",
+      "vcpu": 4,
+      "ram_gb": 16,
+      "disk_gb": 0,
+      "disk_type": "block-storage-required",
+      "price_hourly": 0.194,
+      "price_monthly": 141.62,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "de",
+      "category": "standard",
+      "notes": "Storage billed separately. Price is CPU+RAM only."
+    },
+    {
+      "id": "8c-16g",
+      "name": "8C-16G",
+      "vcpu": 8,
+      "ram_gb": 16,
+      "disk_gb": 0,
+      "disk_type": "block-storage-required",
+      "price_hourly": 0.276,
+      "price_monthly": 201.48,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "de",
+      "category": "standard",
+      "notes": "Storage billed separately. Price is CPU+RAM only."
+    },
+    {
+      "id": "8c-32g",
+      "name": "8C-32G",
+      "vcpu": 8,
+      "ram_gb": 32,
+      "disk_gb": 0,
+      "disk_type": "block-storage-required",
+      "price_hourly": 0.388,
+      "price_monthly": 283.24,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "de",
+      "category": "standard",
+      "notes": "Storage billed separately. Price is CPU+RAM only."
+    },
+    {
+      "id": "16c-32g",
+      "name": "16C-32G",
+      "vcpu": 16,
+      "ram_gb": 32,
+      "disk_gb": 0,
+      "disk_type": "block-storage-required",
+      "price_hourly": 0.552,
+      "price_monthly": 402.96,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "de",
+      "category": "standard",
+      "notes": "Storage billed separately. Price is CPU+RAM only."
+    },
+    {
+      "id": "16c-64g",
+      "name": "16C-64G",
+      "vcpu": 16,
+      "ram_gb": 64,
+      "disk_gb": 0,
+      "disk_type": "block-storage-required",
+      "price_hourly": 0.776,
+      "price_monthly": 566.48,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "de",
+      "category": "standard",
+      "notes": "Storage billed separately. Price is CPU+RAM only."
+    },
+    {
+      "id": "32c-64g",
+      "name": "32C-64G",
+      "vcpu": 32,
+      "ram_gb": 64,
+      "disk_gb": 0,
+      "disk_type": "block-storage-required",
+      "price_hourly": 1.104,
+      "price_monthly": 805.92,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "de",
+      "category": "standard",
+      "notes": "Storage billed separately. Price is CPU+RAM only."
+    },
+    {
+      "id": "32c-128g",
+      "name": "32C-128G",
+      "vcpu": 32,
+      "ram_gb": 128,
+      "disk_gb": 0,
+      "disk_type": "block-storage-required",
+      "price_hourly": 1.552,
+      "price_monthly": 1132.96,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "de",
+      "category": "memory-optimized",
+      "notes": "Storage billed separately. Price is CPU+RAM only."
+    }
+  ],
+  "load_balancer": {
+    "price_monthly": 51.1,
+    "notes": "€0.07/hour"
+  },
+  "block_storage": {
+    "price_per_gb_monthly": 0.09,
+    "notes": "€0.09/GB/month"
+  },
+  "egress": {
+    "free_tb": "unlimited",
+    "price_per_gb": 0,
+    "notes": "Traffic free with fair use policy"
+  },
+  "object_storage": {
+    "price_per_gb_monthly": 0.0245,
+    "type": "S3-compatible",
+    "notes": "plusserver S3 Object Storage"
+  },
+  "public_ip": {
+    "price_monthly": 2.19,
+    "notes": "€0.003/hour per IP"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "provider": "hostinger",
+  "fetched_at": "2026-01-25T19:32:53.284Z",
+  "source": "static",
+  "source_url": "https://www.hostinger.com/de/Preise/vps-hosting",
+  "manual": true,
+  "instances": [
+    {
+      "id": "kvm-1",
+      "name": "KVM 1",
+      "vcpu": 1,
+      "ram_gb": 4,
+      "disk_gb": 50,
+      "disk_type": "nvme",
+      "price_hourly": 0.0176,
+      "price_monthly": 12.87,
+      "price_monthly_usd": 13.99,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "eu",
+      "notes": "4TB bandwidth included"
+    },
+    {
+      "id": "kvm-2",
+      "name": "KVM 2",
+      "vcpu": 2,
+      "ram_gb": 8,
+      "disk_gb": 100,
+      "disk_type": "nvme",
+      "price_hourly": 0.0227,
+      "price_monthly": 16.55,
+      "price_monthly_usd": 17.99,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "eu",
+      "notes": "8TB bandwidth included"
+    },
+    {
+      "id": "kvm-4",
+      "name": "KVM 4",
+      "vcpu": 4,
+      "ram_gb": 16,
+      "disk_gb": 200,
+      "disk_type": "nvme",
+      "price_hourly": 0.0378,
+      "price_monthly": 27.59,
+      "price_monthly_usd": 29.99,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "eu",
+      "notes": "16TB bandwidth included"
+    },
+    {
+      "id": "kvm-8",
+      "name": "KVM 8",
+      "vcpu": 8,
+      "ram_gb": 32,
+      "disk_gb": 400,
+      "disk_type": "nvme",
+      "price_hourly": 0.0756,
+      "price_monthly": 55.19,
+      "price_monthly_usd": 59.99,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "eu",
+      "notes": "32TB bandwidth included"
+    }
+  ],
+  "load_balancer": {
+    "available": false
+  },
+  "block_storage": {
+    "available": false
+  },
+  "egress": {
+    "free_tb": 4,
+    "price_per_gb_overage": null,
+    "notes": "Bandwidth included per plan (4TB-32TB). Overage policy unclear."
+  },
+  "object_storage": {
+    "available": false
+  }
+}

@@ -1,0 +1,295 @@
+{
+  "provider": "infomaniak",
+  "provider_name": "Infomaniak",
+  "fetched_at": "2026-01-25T19:32:53.281Z",
+  "source": "static",
+  "manual": true,
+  "source_urls": [
+    "https://pcr.cloud-mercato.com/providers/infomaniak/",
+    "https://www.infomaniak.com/en/hosting/public-cloud/prices"
+  ],
+  "control_plane_cost": 0,
+  "instances": [
+    {
+      "id": "a1-ram2-disk0",
+      "name": "A1-RAM2-DISK0",
+      "vcpu": 1,
+      "ram_gb": 2,
+      "disk_gb": 0,
+      "disk_type": "network",
+      "price_hourly": 0.004,
+      "price_monthly": 2.92,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "ch-gva",
+      "category": "general-purpose",
+      "hardware": "amd-epyc"
+    },
+    {
+      "id": "a1-ram2-disk20-perf1",
+      "name": "A1-RAM2-DISK20-PERF1",
+      "vcpu": 1,
+      "ram_gb": 2,
+      "disk_gb": 20,
+      "disk_type": "nvme",
+      "price_hourly": 0.005,
+      "price_monthly": 3.65,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "ch-gva",
+      "category": "general-purpose",
+      "hardware": "amd-epyc"
+    },
+    {
+      "id": "a2-ram4-disk0",
+      "name": "A2-RAM4-DISK0",
+      "vcpu": 2,
+      "ram_gb": 4,
+      "disk_gb": 0,
+      "disk_type": "network",
+      "price_hourly": 0.007,
+      "price_monthly": 5,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "ch-gva",
+      "category": "general-purpose",
+      "hardware": "amd-epyc"
+    },
+    {
+      "id": "a2-ram4-disk20-perf1",
+      "name": "A2-RAM4-DISK20-PERF1",
+      "vcpu": 2,
+      "ram_gb": 4,
+      "disk_gb": 20,
+      "disk_type": "nvme",
+      "price_hourly": 0.008,
+      "price_monthly": 5.84,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "ch-gva",
+      "category": "general-purpose",
+      "hardware": "amd-epyc"
+    },
+    {
+      "id": "a2-ram4-disk50-perf1",
+      "name": "A2-RAM4-DISK50-PERF1",
+      "vcpu": 2,
+      "ram_gb": 4,
+      "disk_gb": 50,
+      "disk_type": "nvme",
+      "price_hourly": 0.009,
+      "price_monthly": 6.57,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "ch-gva",
+      "category": "general-purpose",
+      "hardware": "amd-epyc"
+    },
+    {
+      "id": "a4-ram8-disk0",
+      "name": "A4-RAM8-DISK0",
+      "vcpu": 4,
+      "ram_gb": 8,
+      "disk_gb": 0,
+      "disk_type": "network",
+      "price_hourly": 0.015,
+      "price_monthly": 11,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "ch-gva",
+      "category": "general-purpose",
+      "hardware": "amd-epyc"
+    },
+    {
+      "id": "a4-ram8-disk20-perf1",
+      "name": "A4-RAM8-DISK20-PERF1",
+      "vcpu": 4,
+      "ram_gb": 8,
+      "disk_gb": 20,
+      "disk_type": "nvme",
+      "price_hourly": 0.016,
+      "price_monthly": 11.68,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "ch-gva",
+      "category": "general-purpose",
+      "hardware": "amd-epyc"
+    },
+    {
+      "id": "a4-ram8-disk50-perf1",
+      "name": "A4-RAM8-DISK50-PERF1",
+      "vcpu": 4,
+      "ram_gb": 8,
+      "disk_gb": 50,
+      "disk_type": "nvme",
+      "price_hourly": 0.017,
+      "price_monthly": 12.41,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "ch-gva",
+      "category": "general-purpose",
+      "hardware": "amd-epyc"
+    },
+    {
+      "id": "a4-ram8-disk80-perf1",
+      "name": "A4-RAM8-DISK80-PERF1",
+      "vcpu": 4,
+      "ram_gb": 8,
+      "disk_gb": 80,
+      "disk_type": "nvme",
+      "price_hourly": 0.018,
+      "price_monthly": 13.14,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "ch-gva",
+      "category": "general-purpose",
+      "hardware": "amd-epyc"
+    },
+    {
+      "id": "a8-ram16-disk0",
+      "name": "A8-RAM16-DISK0",
+      "vcpu": 8,
+      "ram_gb": 16,
+      "disk_gb": 0,
+      "disk_type": "network",
+      "price_hourly": 0.029,
+      "price_monthly": 21,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "ch-gva",
+      "category": "general-purpose",
+      "hardware": "amd-epyc"
+    },
+    {
+      "id": "a8-ram16-disk50-perf1",
+      "name": "A8-RAM16-DISK50-PERF1",
+      "vcpu": 8,
+      "ram_gb": 16,
+      "disk_gb": 50,
+      "disk_type": "nvme",
+      "price_hourly": 0.031,
+      "price_monthly": 22.63,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "ch-gva",
+      "category": "general-purpose",
+      "hardware": "amd-epyc"
+    },
+    {
+      "id": "a8-ram16-disk80-perf1",
+      "name": "A8-RAM16-DISK80-PERF1",
+      "vcpu": 8,
+      "ram_gb": 16,
+      "disk_gb": 80,
+      "disk_type": "nvme",
+      "price_hourly": 0.032,
+      "price_monthly": 23.36,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "ch-gva",
+      "category": "general-purpose",
+      "hardware": "amd-epyc"
+    },
+    {
+      "id": "a16-ram32-disk0",
+      "name": "A16-RAM32-DISK0",
+      "vcpu": 16,
+      "ram_gb": 32,
+      "disk_gb": 0,
+      "disk_type": "network",
+      "price_hourly": 0.058,
+      "price_monthly": 42,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "ch-gva",
+      "category": "general-purpose",
+      "hardware": "amd-epyc"
+    },
+    {
+      "id": "a16-ram32-disk50-perf1",
+      "name": "A16-RAM32-DISK50-PERF1",
+      "vcpu": 16,
+      "ram_gb": 32,
+      "disk_gb": 50,
+      "disk_type": "nvme",
+      "price_hourly": 0.06,
+      "price_monthly": 43.8,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "ch-gva",
+      "category": "general-purpose",
+      "hardware": "amd-epyc"
+    },
+    {
+      "id": "a16-ram32-disk80-perf1",
+      "name": "A16-RAM32-DISK80-PERF1",
+      "vcpu": 16,
+      "ram_gb": 32,
+      "disk_gb": 80,
+      "disk_type": "nvme",
+      "price_hourly": 0.061,
+      "price_monthly": 44.53,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "ch-gva",
+      "category": "general-purpose",
+      "hardware": "amd-epyc"
+    }
+  ],
+  "kubernetes": {
+    "name": "Managed Kubernetes",
+    "control_plane_monthly": 0,
+    "notes": "Free shared control plane (up to 10 nodes, no SLA). Dedicated plans available.",
+    "features": [
+      "Free shared control plane",
+      "Up to 10 nodes on free tier",
+      "Terraform/OpenTofu support",
+      "Multi-zone deployment"
+    ]
+  },
+  "load_balancer": {
+    "price_monthly": 10,
+    "notes": "Octavia load balancer"
+  },
+  "block_storage": {
+    "price_per_gb_monthly": 0.04,
+    "notes": "High-performance NVMe SSD with 3x replication (Ceph)"
+  },
+  "egress": {
+    "free_tb": 10,
+    "price_per_gb": 0.01,
+    "notes": "10TB free per month per organization"
+  },
+  "regions": [
+    {
+      "id": "dc3-a",
+      "name": "Geneva DC3",
+      "location": "Geneva, Switzerland"
+    },
+    {
+      "id": "dc4-a",
+      "name": "Geneva DC4",
+      "location": "Geneva, Switzerland"
+    }
+  ],
+  "certifications": [
+    "ISO 27001",
+    "ISO 14001",
+    "FINMA compliant"
+  ],
+  "data_residency": "Switzerland only (data sovereignty)",
+  "notes": "Swiss sovereign cloud. All infrastructure in Switzerland. 300 CHF free credits for new accounts.",
+  "object_storage": {
+    "price_per_gb_monthly": 0.01,
+    "free_egress_tb": 10,
+    "egress_price_per_gb": 0.01,
+    "type": "Swift (S3-compatible)",
+    "notes": "€0.01/GB storage. 10TB free egress per organization per month. Swiss data sovereignty."
+  },
+  "links": {
+    "pricing": "https://www.infomaniak.com/en/hosting/public-cloud/prices",
+    "calculator": "https://www.infomaniak.com/en/hosting/public-cloud/calculator",
+    "kubernetes": "https://www.infomaniak.com/en/hosting/public-cloud/kubernetes",
+    "docs": "https://docs.infomaniak.cloud/"
+  }
+}

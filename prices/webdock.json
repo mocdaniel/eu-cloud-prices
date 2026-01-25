@@ -1,0 +1,90 @@
+{
+  "provider": "webdock",
+  "fetched_at": "2026-01-25T19:32:53.282Z",
+  "source": "static",
+  "source_url": "https://webdock.io/en/pricing",
+  "manual": true,
+  "control_plane_cost": null,
+  "instances": [
+    {
+      "id": "essential",
+      "name": "Essential",
+      "vcpu": 1,
+      "ram_gb": 2,
+      "disk_gb": 15,
+      "disk_type": "ssd",
+      "price_hourly": 0.0029,
+      "price_monthly": 2.15,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "dk",
+      "category": "essential",
+      "bandwidth_tb": 1
+    },
+    {
+      "id": "advanced",
+      "name": "Advanced",
+      "vcpu": 1,
+      "ram_gb": 2,
+      "disk_gb": 15,
+      "disk_type": "nvme",
+      "price_hourly": 0.0059,
+      "price_monthly": 4.3,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "dk",
+      "category": "standard",
+      "bandwidth_tb": 1
+    },
+    {
+      "id": "pro",
+      "name": "Pro",
+      "vcpu": 6,
+      "ram_gb": 10,
+      "disk_gb": 40,
+      "disk_type": "nvme",
+      "price_hourly": 0.0268,
+      "price_monthly": 19.6,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "dk",
+      "category": "standard",
+      "bandwidth_tb": 7
+    }
+  ],
+  "load_balancer": {
+    "price_monthly": 9.95,
+    "notes": "No bandwidth limits, SSL offloading, HTTP3, caching. Danish datacenter."
+  },
+  "block_storage": {
+    "price_per_gb_monthly": 0,
+    "available": false,
+    "notes": "Block storage not available. Disk included with instances."
+  },
+  "egress": {
+    "free_tb": 1,
+    "price_per_gb": 0,
+    "notes": "1-7TB included depending on plan. Fair usage policy."
+  },
+  "object_storage": {
+    "available": false,
+    "notes": "Object storage (S3) not available. Coming soon per their roadmap."
+  },
+  "extras": {
+    "waf": {
+      "price_monthly": 11.95,
+      "notes": "Blackwall Gatekeeper L7 DDoS/bot protection"
+    },
+    "snapshots": {
+      "included": true,
+      "notes": "5 automated + 3 manual snapshots free"
+    },
+    "ssl": {
+      "included": true,
+      "notes": "Free SSL certificates"
+    },
+    "ddos_protection": {
+      "included": true
+    }
+  }
+}

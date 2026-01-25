@@ -1,0 +1,108 @@
+{
+  "provider": "contabo",
+  "fetched_at": "2026-01-25T19:32:50.875Z",
+  "source": "static",
+  "manual": true,
+  "instances": [
+    {
+      "id": "cloud-vps-10",
+      "name": "Cloud VPS 10",
+      "vcpu": 4,
+      "ram_gb": 8,
+      "disk_gb": 75,
+      "price_monthly": 4.5,
+      "disk_type": "nvme",
+      "price_hourly": 0.0062,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "eu",
+      "notes": "SSD option available at same price with 2x storage"
+    },
+    {
+      "id": "cloud-vps-20",
+      "name": "Cloud VPS 20",
+      "vcpu": 6,
+      "ram_gb": 12,
+      "disk_gb": 100,
+      "price_monthly": 7,
+      "disk_type": "nvme",
+      "price_hourly": 0.0096,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "eu",
+      "notes": "SSD option available at same price with 2x storage"
+    },
+    {
+      "id": "cloud-vps-30",
+      "name": "Cloud VPS 30",
+      "vcpu": 8,
+      "ram_gb": 24,
+      "disk_gb": 200,
+      "price_monthly": 14,
+      "disk_type": "nvme",
+      "price_hourly": 0.0192,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "eu",
+      "notes": "SSD option available at same price with 2x storage"
+    },
+    {
+      "id": "cloud-vps-40",
+      "name": "Cloud VPS 40",
+      "vcpu": 12,
+      "ram_gb": 48,
+      "disk_gb": 250,
+      "price_monthly": 25,
+      "disk_type": "nvme",
+      "price_hourly": 0.0342,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "eu",
+      "notes": "SSD option available at same price with 2x storage"
+    },
+    {
+      "id": "cloud-vps-50",
+      "name": "Cloud VPS 50",
+      "vcpu": 16,
+      "ram_gb": 64,
+      "disk_gb": 300,
+      "price_monthly": 37,
+      "disk_type": "nvme",
+      "price_hourly": 0.0507,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "eu",
+      "notes": "SSD option available at same price with 2x storage"
+    },
+    {
+      "id": "cloud-vps-60",
+      "name": "Cloud VPS 60",
+      "vcpu": 18,
+      "ram_gb": 96,
+      "disk_gb": 350,
+      "price_monthly": 49,
+      "disk_type": "nvme",
+      "price_hourly": 0.0671,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "eu",
+      "notes": "SSD option available at same price with 2x storage"
+    }
+  ],
+  "load_balancer": {
+    "price_monthly": 0
+  },
+  "block_storage": {
+    "price_per_gb_monthly": 0.01
+  },
+  "egress": {
+    "free_tb": 32,
+    "price_per_gb_overage": 0.01
+  },
+  "object_storage": {
+    "price_per_gb_monthly": 0.01,
+    "allocation_block_gb": 250,
+    "type": "S3-compatible",
+    "notes": "€2.49/month per 250GB block (~€0.01/GB). Unlimited traffic included."
+  }
+}

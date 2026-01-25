@@ -1,0 +1,110 @@
+{
+  "provider": "arubacloud",
+  "fetched_at": "2026-01-25T19:32:53.284Z",
+  "source": "static",
+  "source_url": "https://www.arubacloud.com/vps/",
+  "manual": true,
+  "instances": [
+    {
+      "id": "vps-o1i1",
+      "name": "VPS O1I1",
+      "vcpu": 1,
+      "ram_gb": 1,
+      "disk_gb": 20,
+      "disk_type": "ssd",
+      "price_hourly": 0.0027,
+      "price_monthly": 1.99,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "eu",
+      "notes": "2TB bandwidth included. Linux pricing (Windows +€0.50/mo for small plans)."
+    },
+    {
+      "id": "vps-o1i2",
+      "name": "VPS O1I2",
+      "vcpu": 1,
+      "ram_gb": 2,
+      "disk_gb": 40,
+      "disk_type": "ssd",
+      "price_hourly": 0.0055,
+      "price_monthly": 3.99,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "eu",
+      "notes": "5TB bandwidth included. Linux pricing (Windows +€0.50/mo for small plans)."
+    },
+    {
+      "id": "vps-o2a4",
+      "name": "VPS O2A4",
+      "vcpu": 2,
+      "ram_gb": 4,
+      "disk_gb": 40,
+      "disk_type": "ssd",
+      "price_hourly": 0.0086,
+      "price_monthly": 6.29,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "eu",
+      "notes": "25TB bandwidth included. Linux pricing (Windows +€0.50/mo for small plans)."
+    },
+    {
+      "id": "vps-o4a8",
+      "name": "VPS O4A8",
+      "vcpu": 4,
+      "ram_gb": 8,
+      "disk_gb": 80,
+      "disk_type": "ssd",
+      "price_hourly": 0.0162,
+      "price_monthly": 11.79,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "eu",
+      "notes": "50TB bandwidth included. Linux pricing (Windows +€0.50/mo for small plans)."
+    },
+    {
+      "id": "vps-o8a16",
+      "name": "VPS O8A16",
+      "vcpu": 8,
+      "ram_gb": 16,
+      "disk_gb": 160,
+      "disk_type": "ssd",
+      "price_hourly": 0.0272,
+      "price_monthly": 19.89,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "eu",
+      "notes": "100TB bandwidth included. Linux pricing (Windows +€0.50/mo for small plans)."
+    },
+    {
+      "id": "vps-o16a32",
+      "name": "VPS O16A32",
+      "vcpu": 16,
+      "ram_gb": 32,
+      "disk_gb": 320,
+      "disk_type": "ssd",
+      "price_hourly": 0.0533,
+      "price_monthly": 38.9,
+      "currency": "EUR",
+      "architecture": "x86",
+      "location": "eu",
+      "notes": "100TB bandwidth included. Linux pricing (Windows +€0.50/mo for small plans)."
+    }
+  ],
+  "load_balancer": {
+    "available": false
+  },
+  "block_storage": {
+    "price_per_gb_monthly": 0.1,
+    "notes": "Additional block storage available"
+  },
+  "egress": {
+    "free_tb": 2,
+    "price_per_gb_overage": null,
+    "notes": "Bandwidth included per plan (2TB-100TB)."
+  },
+  "object_storage": {
+    "price_per_gb_monthly": 0.03,
+    "type": "S3-compatible",
+    "notes": "Aruba Object Storage available"
+  }
+}
