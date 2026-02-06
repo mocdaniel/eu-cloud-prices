@@ -383,8 +383,8 @@
     "flag": "/flags/nl.svg",
     "type": "managed",
     "managed_k8s": true,
-    "control_plane_cost": 0,
-    "locations": ["nl-ams"],
+    "control_plane_cost": 19,
+    "locations": ["nl-ams", "us-nj", "ca-tor", "ae-dxb", "kz-ala", "br-sao"],
     "certifications": [],
     "egress_free_tb": "unlimited",
     "website": "https://serverspace.io/"
